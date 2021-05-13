@@ -134,7 +134,7 @@ class MainActivity : AppCompatActivity() {
 
             val toDisplay = String.format("$firstName $lastName graduated in "+
                     "$gradYear with a concentration in $major from $school. Their favourite" +
-                    " activites are $favAct")
+                    " activites are $favAct.")
 
             val intent = DisplayActivity.newIntent(this@MainActivity, toDisplay)
             startActivityForResult(intent, REQUEST_CODE_DISPLAY)
