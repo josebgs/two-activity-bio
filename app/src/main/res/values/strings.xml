@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TwoActivityBio</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="school">School</string>
+    <string name="year_of_graduation">Year of Graduation</string>
+    <string name="degree">Degree</string>
+    <string name="b_s">B.S.</string>
+    <string name="m_s">M.S</string>
+    <string name="ph_d">Ph.D.</string>
+    <string name="bas">BAS</string>
+    <string name="m_a">M.A.</string>
+    <string name="m_d">M.D.</string>
+    <string name="b_a">B.A.</string>
+    <string name="mfa">MFA</string>
+    <string name="dds">DDS</string>
+    <string name="bfa">BFA</string>
+    <string name="mba">MBA</string>
+    <string name="j_d">J.D.</string>
+    <string name="create">CREATE</string>
+    <string name="fav_act">Favorite Activities</string>
+    <string-array name="majors_array">
+        <item></item>
+        <item>Computer Science</item>
+        <item>Math</item>
+        <item>Philosophy</item>
+        <item>Economics</item>
+        <item>Liberal Arts</item>
+        <item>Psychology</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+    </string-array>
+</resources>
