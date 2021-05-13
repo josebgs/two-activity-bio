@@ -131,9 +131,10 @@ class MainActivity : AppCompatActivity() {
 
 
             val favAct = favActivitiesEditText.text.toString()
-            val bio = Bio(firstName, lastName, school, gradYear,  degree, major, favAct)
 
-            val toDisplay = bio.toString()
+            val toDisplay = String.format("$firstName $lastName graduated in "+
+                    "$gradYear with a concentration in $major from $school. Their favourite" +
+                    " activites are $favAct")
 
             val intent = DisplayActivity.newIntent(this@MainActivity, toDisplay)
             startActivityForResult(intent, REQUEST_CODE_DISPLAY)
